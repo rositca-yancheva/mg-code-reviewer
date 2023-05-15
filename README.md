@@ -18,5 +18,6 @@ The API is documented via swagger and is available for testing:
 
 Some ideas for developing this app further would be:
 * handling invalid input with specific exceptions and corresponding http status codes
-* adding unit tests
+* adding more unit tests
 * saving the points in the field that were already sprayed by the drone so that it uses the fertilizer in an optimized way
+* creating a database to store multiple drones and drone fields
