@@ -27,7 +27,7 @@ class DroneServiceTest {
         when(drone.getCardinalDirection()).thenReturn(CardinalDirection.SOUTH);
 
         // when
-        String actual = droneService.turn(direction);
+        droneService.turn(direction);
 
         // then
         verify(drone).setCardinalDirection(direction);

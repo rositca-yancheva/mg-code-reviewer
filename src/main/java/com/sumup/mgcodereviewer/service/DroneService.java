@@ -15,7 +15,7 @@ import static com.sumup.mgcodereviewer.model.CardinalDirection.*;
 public class DroneService {
     private final Drone drone;
     private final static Map<CardinalDirection, CardinalDirection> OPPOSING_DIRECTIONS = new HashMap<>() {{
-        put(NORTH, CardinalDirection.SOUTH);
+        put(NORTH, SOUTH);
         put(SOUTH, NORTH);
         put(EAST, WEST);
         put(WEST, EAST);

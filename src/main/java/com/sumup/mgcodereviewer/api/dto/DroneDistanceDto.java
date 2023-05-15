@@ -1,11 +1,11 @@
 package com.sumup.mgcodereviewer.api.dto;
 
 import jakarta.validation.constraints.Min;
-import lombok.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor
 public class DroneDistanceDto {
     private @Min(1) int distance;
 }
